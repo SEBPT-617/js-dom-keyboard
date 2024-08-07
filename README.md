@@ -1,29 +1,22 @@
-[![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
+# DOM & Events Virtual Keyboard - Lab
 
-# JS DOM & Events Virtual Keyboard
+![Screen Shot 2024-01-27 at 2 28 57 PM](https://media.git.generalassemb.ly/user/41550/files/9442044e-1059-41f9-bf0a-6af35b451648)
 
+## Intro
 In this exercise we'll be working with events and input fields.
 
-## Prerequisites
-
-- DOM Methods
-- Event Listeners
-- CSS
-
-## Instructions
+## Setup and Instructions
 
 1. Fork and clone this repository.
-1. Change into the new directory.
-1. Fulfill the listed requirements.
+2. All starter code is available in the `index.html` and `style.css` files. Complete your work in `app.js`.
+3. Before you start coding, open the `index.html` file in your browser to familiarize yourself with the user interface you'll be working with.
+4. Complete the following exercise.
 
-Starter code is available in [`lib/index.html`](lib/index.html). You are
-required to turn in your submission by making a pull request on the original
-repository.
+## Exercise 
 
-Unless otherwise specified on the calendar or by an instructor, homework is due
-the next morning by 9:00am.
+Before diving into the exercise, take a moment to inspect the provided starter code. Your primary focus will be on using JavaScript in the `app.js` file to bring the keyboard to life. Pay special attention to the `index.html` file and any provided attributes that will help you interact with the calculator's elements. 
 
-## Requirements
+### Requirements
 
 Using the starter code, add an event listener to the input field. There are two
 events we will use today - `keydown` and `keyup`.
@@ -42,29 +35,21 @@ even listener to the input field for this.
 
 Clear the input field on keyup so that no letters accumulate in it.
 
-## Double Bonus
+#### Double Bonus
 
 Add an event listener to each letter with the type `mouseover`, that sets the
 class for that div to `active`.
 
-You should not have to add each event listener separately! Can you loop through
+> You should not have to add each event listener separately! Can you loop through
 all the letters?
 
-## Super Mega Bonus
+#### Super Mega Bonus
 
 Make the browser speak the key out loud as you type. You'll have to do some
 research into the
 [Speech Synthesis API](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesisUtterance)
 for this
 
-## Plagiarism
+## Deliverable
+This lab is a deliverable. Please submit your pull request once completed.
 
-Take a moment to refamiliarize yourself with the
-[Plagiarism policy](https://git.generalassemb.ly/DC-WDI/Administrative/blob/master/plagiarism.md).
-Plagiarized work will not be accepted.
-
-## [License](LICENSE)
-
-1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
-1.  All software code is licensed under GNU GPLv3. For commercial use or
-    alternative licensing, please contact legal@ga.co.
